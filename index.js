@@ -17,6 +17,8 @@ let passWord= userForm.elements['myPassword'];
         displayError.style.display=" block";
     }else{
         userForm.innerHTML =" Welcome";
+         displayError.style.display=" none";
+         
     }
 
 
